@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Zone</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body id="body_index">
+    <!-- NAVBAR 1-->
+    <div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid " id="navbar1" >
+              <a class="navbar-brand" href="index.html"><img src="imágenes/logo 2.jpg" class="imagen_redondeada"></a>
+              <form class="d-flex mx-auto w-50" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">
+                      <span class="fas fa-user"></span>Iniciar Sesión <!--Icono de usuario-->
+                  </a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">
+                        <span class="fas fa-shopping-cart" ></span>Carrito de compras<!--Icono de carrito-->
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Navbar 2-->
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav row-cols-md-1">
+                  <li class="nav-item" style="background-color: green">
+                    <a class="nav-link" href="#"><span style="color: rgb(16, 212, 16); ">Xbox</span></a>
+                  </li>
+                  <li class="nav-item" style="background-color: lightblue">
+                    <a class="nav-link" href="#"><span style="color: blue; ;">PlayStation</span></a>
+                  </li>
+                  <li class="nav-item" style="background-color: lightcoral">
+                    <a class="nav-link" href="#"><span style="color: red; ">Nintendo</span></a>
+                  </li>
+                  <li class="nav-item" style="background-color: lightyellow">
+                    <a class="nav-link" href="#"><span style="color: goldenrod; ">PC</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--Carrusel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" class="slide">
+            <img src="imágenes/gran turismo.jpg" widt="300" height="500" class="d-block w-100" alt="portada slide 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: gold;">¡ESTRENOS!</h5>
+              <p style="color: gold; ">DESCUBRE LA <span style="font-style: italic;">VELOCIDAD</span> CON GRAN TURISMO</p>
+            </div>
+          </div>
+          <div class="carousel-item" class="slide">
+            <img src="imágenes/mariowonder.webp" widt="300" height="500" class="d-block w-100" alt="portada slide 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>¡ESTRENOS!</h5>
+              <p>MARIO Y COMPAÑÍA COMIENZAN UNA NUEVA <span style="font-style: oblique; color: rgb(248, 0, 0);"><u>AVENTURA</u></span></p>
+            </div>
+          </div>
+          <div class="carousel-item" class="slide">
+            <img src="imágenes/starfield.webp" widt="300" height="500" class="d-block w-100" alt="portada slide 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>¡ESTRENOS!</h5>
+              <p>SUBE A TU NAVE Y DESCUBRE LO QUE EL UNIVERSO TIENE PREPARADO PARA TI</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--Segunda parte-->  
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-12" style="text-align: center;">
+                <div class="card" style="background-image: url(imágenes/confeti.jpg);">
+                    <div class="card-header" id="bestseller_header">
+                        <h5 style="font-size: xx-large;">LO MÁS VENDIDOS</h5>
+                        <p>No te los quieres perder</p>
+                    </div>
+                    <div class="container overflow-hidden">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6"> <!-- Ajuste de columnas -->
+                                <div class="card" style="width: 100%;">
+                                    <img src="imágenes/last.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Last of Us Part II Remastered - PS5</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6"> <!-- Ajuste de columnas -->
+                                <div class="card" style="width: 100%;">
+                                    <img src="imágenes/sp2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Spider-Man 2 - PS5</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6"> <!-- Ajuste de columnas -->
+                                <div class="card" style="width: 100%;">
+                                    <img src="imágenes/fc.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FC24 - XBOX</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Ver Producto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!--TERCERA parte-->
+    <br><br>
+    <div class="container-fluid">
+      <div class="row" id="fila_circulos">
+          <div class="col-md-3 col-sm-6">
+              <img src="imágenes/xboxlogo2.jpg" class="imagen_redondeada_2 img-fluid" alt="logo 1">
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <img src="imágenes/PlayStation_App_Icon.jpg" class="imagen_redondeada_2 img-fluid" alt="logo 2">
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <img src="imágenes/nintendo.jpg" class="imagen_redondeada_2 img-fluid" alt="logo 3">
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <img src="imágenes/pclogo.jpg" class="imagen_redondeada_2 img-fluid" alt="logo 4">
+          </div>
+      </div>
+  </div>
+  
+  
+
+    <!--FINAL-->
+    <br><br>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body" id="footers">
+              <h5 class="card-title" style="color: blueviolet;">CONTACTO</h5>
+              <ul>
+                <li>Contáctanos a través de Redes sociales o al mail servicioalcliente@gamers.cl.</li>
+                <li>HORARIO DE ATENCIÓN TIENDA WEB
+                    Lunes a Viernes:
+                    De 08:00 AM a 17:30</li>
+                <li>Acerca de nosotros</li>
+              </ul>
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 m">
+          <div class="card">
+            <div class="card-body" id="footers">
+              <h5 class="card-title" style="color: blueviolet;">Nuestros Medios de Pago</h5>
+              <img src="imágenes/webpay-plus-integracion.png" style="max-width: 100%; height: auto;">
+              <img src="imágenes/mach.jpg" style="max-width: 100%; height: auto;">
+              <img src="imágenes/kippu.png" style="max-width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>

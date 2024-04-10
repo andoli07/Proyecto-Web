@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body id="body_login">
+    <main>
+        <!--Navbar-->
+        <div>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid " id="navbar1" >
+                  <a class="navbar-brand" href="index.html"><img src="imágenes/logo 2.jpg" class="imagen_redondeada"></a>
+                  <form class="d-flex mx-auto w-50" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html" style="font-size: medium;">
+                          <span class="fas fa-user"></span> Iniciar Sesión <!-- Icono de usuario -->
+                      </a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">
+                            <span class="fas fa-shopping-cart" style="width: 30px;"></span>Carrito de compras
+                            
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid"><!--Login-->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container" id="login" style="width: 500px;">
+                <form class="px-4 py-3">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label" style="font-weight: bold;">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label" style="font-weight: bold;">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck" style="font-weight: bold;">
+                        Recordar
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary" style="margin-left:38%;">Ingresar</button>
+                </form>
+                <p style="font-weight: bold;">Recuperar <a href="#">contraseña</a></p>
+                
+            </div>
+
+            </div>
+            <div class="col-md-6"> <!--Registro-->
+              <div class="container" id="login" style="width: 500px;">
+                <form class="px-4 py-3">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label" style="font-weight: bold;">Nombre de Usuario</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="user example">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label" style="font-weight: bold;">Correo electrónico</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="email@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label" style="font-weight: bold;">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                    
+                  </div>
+                  <button type="submit" class="btn btn-primary" style="margin-left:38%;">Crear Cuenta</button>
+                </form>
+                
+              
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--Login-->
+        
+        
+    </main>
+
+    
+
+</body>
+
+<script src="js/bootstrap.bundle.min.js"></script>    
+</html>
