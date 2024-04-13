@@ -19,16 +19,69 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto row">
                 <li class="nav-item">
                   <a class="nav-link" href="login.html">
-                      <span class="fas fa-user"></span>Iniciar Sesión <!--Icono de usuario-->
+                      <span class="fas fa-user"></span> <!--Icono de usuario-->
                   </a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">
-                        <span class="fas fa-shopping-cart" ></span>Carrito de compras<!--Icono de carrito-->
-                    </a>
+                  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <span class="fas fa-shopping-cart" ></span><!--Icono de carrito-->
+                    
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasExampleLabel">Carrito de Compras</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="container carrito carrito-modal">
+                      <table class="table">
+                          <thead>
+                              <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">Producto</th>
+                                  <th scope="col">Precio</th>
+                                  <th scope="col">Cantidad</th>
+                                  <th scope="col">Subtotal</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <th scope="row">1</th>
+                                  <td><img src="imágenes/chief.webp" alt="Producto 1" style="max-height: 100px; max-width: 90px;"></td>
+                                  <td>$20.00</td>
+                                  <td>2</td>
+                                  <td>$40.00</td>
+                              </tr>
+                              <tr>
+                                  <th scope="row">2</th>
+                                  <td><img src="imágenes/last.avif" alt="Producto 2" style="max-height: 100px; max-width: 90px;"></td>
+                                  <td>$15.00</td>
+                                  <td>1</td>
+                                  <td>$15.00</td>
+                              </tr>
+                              <tr>
+                                  <th scope="row">3</th>
+                                  <td><img src="imágenes/fc.jpg" alt="Producto 3" style="max-height: 100px; max-width: 90px;"></td>
+                                  <td>$30.00</td>
+                                  <td>3</td>
+                                  <td>$90.00</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      <div class="text-right">
+                          <h4>Total: $145.00</h4>
+                          <button class="btn btn-primary">Pagar</button>
+                          <a class="btn btn-primary" href="carrito.html">Ir a carrito</a>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+
+
+                    
                 </li>
             </ul>
             </div>
