@@ -17,6 +17,15 @@
     
 }
 
+#body_registro{
+
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #body_login{
     background-image: url(imágenes/fondo3.png);
     background-position: center;
