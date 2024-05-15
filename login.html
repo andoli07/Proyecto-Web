@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="estiloLogin.css">
+    
 
 </head>
 <body id="body_login">
@@ -38,7 +40,7 @@
         </div>
 
         <div class="container-fluid"><!--Login-->
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-md-6">
               <div class="container" id="login" style="width: 500px;">
                 <form class="px-4 py-3">
@@ -58,48 +60,24 @@
                       </label>
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary" style="margin-left:38%;">Ingresar</button>
+                  <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                    <a href="index.html" class="btn btn-primary">Volver a Inicio</a>
+                    <a href="formulario.html" class="btn btn-primary">registrarse </a>
+                  </div>
+
                 </form>
-                <p style="font-weight: bold;">Recuperar <a href="#">contraseña</a></p>
-                
+                <p style="font-weight: bold; text-align: center;">Recuperar <a href="#">contraseña</a></p>
+                <div id ="resLogin">
+                  
+                </div>
             </div>
-
             </div>
-            <div class="col-md-6"> <!--Registro-->
-              <div class="container" id="login" style="width: 500px;">
-                <form class="px-4 py-3">
-                  <div class="mb-3">
-                    <label for="exampleDropdownFormEmail1" class="form-label" style="font-weight: bold;">Nombre de Usuario</label>
-                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="user example">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleDropdownFormPassword1" class="form-label" style="font-weight: bold;">Correo electrónico</label>
-                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="email@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleDropdownFormPassword1" class="form-label" style="font-weight: bold;">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-                    
-                  </div>
-                  <button type="submit" class="btn btn-primary" style="margin-left:38%;">Crear Cuenta</button>
-                </form>
-                
-              
-
-            </div>
-
           </div>
-
-        </div>
-
-        <!--Login-->
-        
-        
     </main>
 
-    
-
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="validacionLogin.js"></script>  
+<script src="https://kit.fontawesome.com/77785462c1.js" crossorigin="anonymous"></script>
 </body>
-
-<script src="js/bootstrap.bundle.min.js"></script>    
 </html>

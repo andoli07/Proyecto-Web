@@ -1,0 +1,42 @@
+/* ----- -----  Estilos para Validacion ----- ----- */
+.login__grupo-correcto .login__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.login__grupo-incorrecto .login__label {
+	color: #bb2929;
+}
+
+.login__grupo-incorrecto .login__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.login__grupo-incorrecto .login__input {
+	border: 3px solid #bb2929;
+}
+
+.login__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.login {
+		grid-template-columns: 1fr;
+	}
+
+	.login__grupo-terminos, 
+	.login__mensaje,
+	.login__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.login__btn {
+		width: 100%;
+	}
+}
