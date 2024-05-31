@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'Estilos.css'%}">
+    <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'%}">
+    
+</head>
+<body id="body_producto">
+
+  <!--Navbar-->
+  <div>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid " id="navbar1" >
+          <a class="navbar-brand" href="index.html"><img src="imágenes/logo 2.jpg" class="imagen_redondeada"></a>
+          <form class="d-flex mx-auto w-50" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html" style="font-size: medium;">
+                  <span class="fas fa-user"></span> Iniciar Sesión <!-- Icono de usuario -->
+              </a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carrito.html">
+                    <span class="fas fa-shopping-cart" style="width: 30px;"></span>Carrito de compras
+                    
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+
+   <!--Navbar 2-->
+   <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav row-cols-md-1">
+              <li class="nav-item" style="background-color: green">
+                <a class="nav-link" href="#"><span style="color: rgb(16, 212, 16); ">Xbox</span></a>
+              </li>
+              <li class="nav-item" style="background-color: lightblue">
+                <a class="nav-link" href="#"><span style="color: blue; ;">PlayStation</span></a>
+              </li>
+              <li class="nav-item" style="background-color: lightcoral">
+                <a class="nav-link" href="#"><span style="color: red; ">Nintendo</span></a>
+              </li>
+              <li class="nav-item" style="background-color: lightyellow">
+                <a class="nav-link" href="#"><span style="color: goldenrod; ">PC</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imágenes/sp2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imágenes/marvel-spider-man-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imágenes/spider2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Spider-Man 2</h5>
+            <p class="card-text">con dos personajes, Peter Parker y Miles Morales, y cambiar entre los dos heroicos Spider-Men durante sus aventuras de lucha contra el crimen para vivir y experimentar el estilo de juego</p>
+            <span class="precio">$70.000 pesos</span>
+            <button class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#sinExistenciasModal">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="sinExistenciasModal" tabindex="-1" aria-labelledby="sinExistenciasModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="sinExistenciasModalLabel">Sin existencias</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Lo sentimos, este producto no tiene existencias disponibles en este momento.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

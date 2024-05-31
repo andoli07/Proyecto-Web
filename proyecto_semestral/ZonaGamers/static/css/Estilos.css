@@ -1,0 +1,151 @@
+.imagen_redondeada{
+
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    
+}
+
+#body_index{
+    background-color: rgb(210, 210, 210);
+    background-image: url(imágenes/fondomario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#body_registro{
+
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_login{
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_carrito{
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_about{
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body_producto{
+    background-image: url(imágenes/fondo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.nav-link{
+    font-size: large;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+.nav-item{
+    border-radius: 1px;
+    border-style: groove;
+    
+}
+
+.carousel-caption{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.carousel-caption h5 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#bestseller_header{
+    background-image: url(imágenes/confeti.jpg);
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: xx-large;
+
+}
+
+.imagen_redondeada_2{
+
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-style: outset;
+    border-color: black;
+    border-width: 5px;
+    
+}
+
+#footers{
+    background-color: rgb(243, 243, 243);
+    border-style: solid;
+    border-radius: 2px;
+    border-color: darkblue;
+    height: 220px;
+    font-weight: bold;
+}
+#footers img{
+    max-height: 60px;
+    width: 3cm;
+}
+
+#fila_circulos{
+    margin-left: 100px;
+}
+
+h5{
+    text-decoration: underline;
+    
+}
+
+#login{
+    margin-top: 7%;
+    border-style: solid;
+    background-color:rgba(211, 211, 211, 0.756);
+    border-color: rgb(118, 46, 232);
+    border-width: 4px;
+    border-radius: 4%;
+}
+
+.carrito{
+    border: 2px solid;
+    padding: 20px; /* Añade un relleno opcional para mejorar el aspecto */
+    background-color:rgba(255, 252, 252, 0.752);
+    border-color: rgb(118, 46, 232);
+}
+
+.carrito-modal{
+    border: none;
+    padding: 0px;
+}
+
+
